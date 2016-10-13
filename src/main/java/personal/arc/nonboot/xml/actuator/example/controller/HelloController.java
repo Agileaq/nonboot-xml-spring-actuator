@@ -18,7 +18,7 @@ public class HelloController {
 
     @RequestMapping(value = "contact")
     public Person getInfo() {
-        return new Person().setEmail("chenglong.qian@dianrong.com").setName("钱晟龙");
+        return new Person().setEmail("lalala@qq.com").setName("lalalalalala");
     }
 
 }
