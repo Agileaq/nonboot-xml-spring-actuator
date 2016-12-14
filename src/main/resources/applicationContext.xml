@@ -18,6 +18,6 @@
 						http://www.springframework.org/schema/util/spring-util.xsd
                         ">
 
-    <context:component-scan base-package="personal.arc.nonboot.xml.actuator" />
-
+    <context:component-scan base-package="personal.arc.nonboot.xml.actuator;personal.arc.nonboot.xml.metrics" />
+    <import resource="classpath:applicationContext-metrics.xml" />
 </beans>
